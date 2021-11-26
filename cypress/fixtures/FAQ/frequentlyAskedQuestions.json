@@ -1,0 +1,13 @@
+{
+    "title": "Frequently Asked Questions",
+    "link_one": "How can I edit my profile?",
+    "link_two": "How can I review my transaction history?",
+    "instruction_link_one_title": "How can I edit my profile?",
+    "instruction_link_one_step_one": "From any page, click your user name which appears at the top right corner of the site.",
+    "instruction_link_one_step_two": "From the dropdown menu that displays, click My Profile.",
+    "instruction_link_one_step_three": "Edit your profile.",
+    "instruction_link_two_title": "How can I review my transaction history?",
+    "instruction_link_two_step_one": "Click Account Activity.",
+    "instruction_link_two_step_two": "Click the Show Transactions tab to view your most recent transactions.",
+    "instruction_link_two_step_three": "Click the Find Transactions tab to show transactions by a date range."
+}

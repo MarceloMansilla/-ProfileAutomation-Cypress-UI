@@ -1,0 +1,12 @@
+{
+    "title": "Feedback",
+    "description_one": "Our Frequently Asked Questions area will help you with many of your inquiries.",
+    "description_two": "If you can't find your question, return to this page and use the e-mail form below.",
+    "description_three": "IMPORTANT! This feedback facility is not secure. Please do not send any account information in a message sent from here.",
+    "name": "Feedback Test - Cypress",
+    "email": "feedback@gmail.com",
+    "subject": "Feedback",
+    "message": "It is a feedback test",
+    "send_message_confirmation_one": "Thank you for your comments,",
+    "send_message_confirmation_two": ". They will be reviewed by our Customer Service staff and given the full attention that they deserve."
+}
