@@ -1,3 +1,4 @@
+import 'cypress-lighthouse';
 import { url } from '../../../../config'
 import Navbar from '../../../page-objects/components/Navbar'
 import FeedbackPageService from '../../../service/Home/FeedbackPageService'
@@ -8,6 +9,7 @@ describe('Navigation navbar Test', () => {
 
     before(function() {
         cy.visit(url)
+        cy.lighthouse(url)
     })
 
     it('should click on ONLINE BANKING and see the ONLINE BANKING information tab', () => {
