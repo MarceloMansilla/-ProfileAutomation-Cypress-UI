@@ -11,7 +11,8 @@
         "cy:run:electron": "cypress run --browser electron",
         "cy:update-snapshots": "cypress run --env updateSnapshots=true",
         "cy:run-dashboard": "cypress run --record --key b6172746-ef4e-40a9-8bfc-b6f018943a15",
-        "cy:run:parallel": "cypress run --record --key b6172746-ef4e-40a9-8bfc-b6f018943a15 --parallel"
+        "cy:run:parallel": "cypress run --record --key b6172746-ef4e-40a9-8bfc-b6f018943a15 --parallel",
+        "cy:browserstack": "browserstack-cypress run --sync"
     },
     "author": "",
     "license": "ISC",
