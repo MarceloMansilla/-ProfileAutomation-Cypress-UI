@@ -20,6 +20,7 @@ export default class FeedbackPageService {
         })
     }
 
+
     static clickOnFrequentlyAskedQuestion() {
         FeedbackPage.getFrequentlyAskedQuestion().click()
     }
