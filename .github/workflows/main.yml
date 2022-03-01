@@ -1,6 +1,6 @@
 name: CI Cypress
 on:
-   push:
+  push:
     branches: [ github_actions_poc ]
   pull_request:
     branches: [ develop ]
