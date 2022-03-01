@@ -35,6 +35,7 @@ export default class FeedbackPageService {
     static addSubject(subject) {
         FeedbackPage.getSubject().type(subject)
 
+
     }
     static addComment(message) {
         FeedbackPage.getComment().type(message)

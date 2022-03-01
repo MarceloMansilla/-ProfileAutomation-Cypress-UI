@@ -10,13 +10,16 @@
         "cy:run:firefox": "cypress run --browser firefox",
         "cy:run:electron": "cypress run --browser electron",
         "cy:update-snapshots": "cypress run --env updateSnapshots=true",
-        "cy:run-dashboard": "cypress run --record --key b6172746-ef4e-40a9-8bfc-b6f018943a15"
+        "cy:run-dashboard": "cypress run --record --key b6172746-ef4e-40a9-8bfc-b6f018943a15",
+        "cy:run:parallel": "cypress run --record --key b6172746-ef4e-40a9-8bfc-b6f018943a15 --parallel",
+        "cy:browserstack": "browserstack-cypress run --sync"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
         "cypress": "^9.0.0",
         "cypress-image-snapshot": "^4.0.1",
+        "cypress-lighthouse": "^0.1.0",
         "prettier": "^2.4.1"
     }
 }
